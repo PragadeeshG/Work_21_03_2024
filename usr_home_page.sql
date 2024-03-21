@@ -1,0 +1,15 @@
+create table if not exists usr_home_page(
+id bigint not null,
+login_id varchar(255) null,
+home_page_name varchar(255) null,
+home_page_url varchar(255) null,
+new_user char null,
+user_in_ext varchar(255) null,
+user_audit varchar(255) null,
+audit_id bigint null,
+page_type varchar(255) null,
+error_code bigint null,
+creation_date varchar(255) null,
+desription varchar(255) null,
+last_updated varchar(255) null,
+constraint usr_home_page_pk primary key(id));
